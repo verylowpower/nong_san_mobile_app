@@ -4,7 +4,7 @@ import React from 'react'
 export default function noti() {
   return (
     <View style={styles.container}>
-      <Text style={{fontSize:20,fontFamily:'RobotoFlex'}}>Noti</Text>
+      <Text style={{fontSize:20,fontFamily:'outfit-bold'}}>Noti</Text>
     </View>
   )
 }
@@ -15,6 +15,6 @@ const styles = StyleSheet.create({
   },
   text: {
     fontSize: 20,
-    fontFamily: "RobotoFlex",
+    fontFamily: "outfit",
   },
 });

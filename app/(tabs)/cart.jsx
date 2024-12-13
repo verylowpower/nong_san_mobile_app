@@ -5,7 +5,7 @@ import React from 'react'
 export default function cart() {
   return (
     <View style={styles.container}>
-      <Text style={{fontSize:20,fontFamily:'RobotoFlex'}}>Cart</Text>
+      <Text style={{fontSize:20,fontFamily:'outfit-bold'}}>Cart</Text>
     </View>
   )
 }
@@ -17,6 +17,6 @@ const styles = StyleSheet.create({
     },
     text: {
       fontSize: 20,
-      fontFamily: "RobotoFlex",
+      fontFamily: "outfit",
     },
   });
